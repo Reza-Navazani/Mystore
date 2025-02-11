@@ -16,7 +16,7 @@ builder.Services.AddDbContext<StoreContext>(opt=>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-
+DbInitializer.InitDb(app);
 app.MapControllers();
 
 app.Run();

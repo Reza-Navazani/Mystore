@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elahe\\Documents\\Projects\\Mystore\\API\\API.csproj": {}
+    "C:\\Users\\elahe\\Documents\\Projects\\Mystore\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elahe\\Documents\\Projects\\Mystore\\API\\API.csproj": {
+    "C:\\Users\\elahe\\Documents\\Projects\\Mystore\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elahe\\Documents\\Projects\\Mystore\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\elahe\\Documents\\Projects\\Mystore\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\elahe\\Documents\\Projects\\Mystore\\API\\API.csproj",
+        "projectPath": "C:\\Users\\elahe\\Documents\\Projects\\Mystore\\api\\API.csproj",
         "packagesPath": "C:\\Users\\elahe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elahe\\Documents\\Projects\\Mystore\\API\\obj\\",
+        "outputPath": "C:\\Users\\elahe\\Documents\\Projects\\Mystore\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\elahe\\AppData\\Roaming\\NuGet\\NuGet.Config"
