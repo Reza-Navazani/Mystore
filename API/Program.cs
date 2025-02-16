@@ -13,8 +13,12 @@ builder.Services.AddDbContext<StoreContext>(opt=>
 });
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 
-var app = builder.Build();
+builder.Services.AddCors();
 
+var app = builder.Build();
+app.UseCors(opt =>{
+    opt.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:3000");
+});
 // Configure the HTTP request pipeline.
 DbInitializer.InitDb(app);
 app.MapControllers();
