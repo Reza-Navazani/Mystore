@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elahe\\Documents\\Projects\\Mystore\\api\\API.csproj": {}
+    "C:\\Users\\Jafar\\Documents\\Projects\\Mystore\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elahe\\Documents\\Projects\\Mystore\\api\\API.csproj": {
+    "C:\\Users\\Jafar\\Documents\\Projects\\Mystore\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elahe\\Documents\\Projects\\Mystore\\api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Jafar\\Documents\\Projects\\Mystore\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\elahe\\Documents\\Projects\\Mystore\\api\\API.csproj",
-        "packagesPath": "C:\\Users\\elahe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elahe\\Documents\\Projects\\Mystore\\api\\obj\\",
+        "projectPath": "C:\\Users\\Jafar\\Documents\\Projects\\Mystore\\api\\API.csproj",
+        "packagesPath": "C:\\Users\\Jafar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jafar\\Documents\\Projects\\Mystore\\api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\elahe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Jafar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

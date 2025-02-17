@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import Catalog from "./features/catalog/Catalog";
-import { Container } from "@mui/material";
+import { Box, Button, Container, Typography } from "@mui/material";
 import { Product } from "./product";
 
 function App() {
@@ -27,9 +27,12 @@ function App() {
     }])
   }
   return (
-    <Container>
-    <h1 style={{fontSize: '1.2rem'}}>Restore</h1>
-     <Catalog products={products} addProduct={addProduct}></Catalog>
+    <Container maxWidth='xl'>
+      <Box display='flex' justifyContent='center' gap={3} marginY={3}>
+        <Typography variant="h4">Restore</Typography>
+        <Button onClick={addProduct} variant='contained'> Add Product</Button>
+      </Box>
+      <Catalog products={products}></Catalog>
     </Container>
   )
 }
